@@ -324,27 +324,27 @@ global:
     text_water:                         '#5b7c9a' # ∆
     text_stroke:                        '#fff'    # ∆
     #label fonts
-    text_font_family:                   'Graphik'  # ∆
+    text_font_family:                   'Roboto'  # ∆
 
 
 fonts:
-    Graphik:
+    Roboto:
        - weight: 300 # Light
-         url: http://www.ledevoir.com/fonts/graphik/graphik-light.woff
+         url: styles/fonts/roboto-light-webfont.woff
        - weight: normal # Regular
-         url: http://www.ledevoir.com/fonts/graphik/graphik-regular.woff
+         url: styles/fonts/roboto-regular-webfont.woff
        - weight: normal # Regular
          style: italic
-         url: http://www.ledevoir.com/fonts/graphik/graphik-regular-italic.woff
+         url: styles/fonts/roboto-regular-italic-webfont.woff
        - weight: 600 # Semi Bold
-         url: http://www.ledevoir.com/fonts/graphik/graphik-medium.woff
+         url: styles/fonts/roboto-medium-webfont.woff
        - weight: 600 # Semi Bold
          style: italic
-         url: http://www.ledevoir.com/fonts/graphik/graphik-medium-italic.woff
+         url: styles/fonts/roboto-medium-italic-webfont.woff
        - weight: bold
-         url: http://www.ledevoir.com/fonts/graphik/graphik-bold.woff
+         url: styles/fonts/roboto-bold-webfont.woff
        - weight: condnensed
-         url: http://www.ledevoir.com/fonts/graphik/graphik-condensed-regular.woff
+         url: styles/fonts/roboto-condensed-regular-webfont.woff
 
 
 cameras:

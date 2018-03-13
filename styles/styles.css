@@ -1,122 +1,261 @@
-@font-face {
-    font-family: 'Graphik Regular';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-regular.eot');
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-regular.eot?#iefix') format('embedded-opentype'),
-         url('http://www.ledevoir.com/fonts/graphik/graphik-regular.woff') format('woff'),
-         url('http://www.ledevoir.com/fonts/graphik/graphik-regular.ttf') format('truetype');
+/*@font-face {
+    font-family: 'Roboto Regular';
+    src: url('fonts/roboto-regular.eot');
+    src: url('fonts/roboto-regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-regular.woff') format('woff'),
+         url('fonts/roboto-regular.ttf') format('truetype');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Regular Italic';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-regular-italic.woff') format('woff');
+    font-family: 'Roboto Regular Italic';
+    src: url('fonts/roboto-regular-italic.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Bold';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-bold.eot');
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-bold.eot?#iefix') format('embedded-opentype'),
-         url('http://www.ledevoir.com/fonts/graphik/graphik-bold.woff') format('woff'),
-         url('http://www.ledevoir.com/fonts/graphik/graphik-bold.ttf') format('truetype');
+    font-family: 'Roboto Bold';
+    src: url('fonts/roboto-bold.eot');
+    src: url('fonts/roboto-bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-bold.woff') format('woff'),
+         url('fonts/roboto-bold.ttf') format('truetype');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Bold Italic';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-bold-italic.woff') format('woff');
+    font-family: 'Roboto Bold Italic';
+    src: url('fonts/roboto-bold-italic.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Black';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-black.woff') format('woff');
+    font-family: 'Roboto Black';
+    src: url('fonts/roboto-black.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Black Italic';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-black-italic.woff') format('woff');
+    font-family: 'Roboto Black Italic';
+    src: url('fonts/roboto-black-italic.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Condensed Regular';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-condensed-regular.woff') format('woff');
+    font-family: 'Roboto Condensed Regular';
+    src: url('fonts/roboto-condensed-regular.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Condensed Regular Italic';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-condensed-regular-italic.woff') format('woff');
+    font-family: 'Roboto Condensed Regular Italic';
+    src: url('fonts/roboto-condensed-regular-italic.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Condensed Bold';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-condensed-bold.woff') format('woff');
+    font-family: 'Roboto Condensed Bold';
+    src: url('fonts/roboto-condensed-bold.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Condensed Bold Italic';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-condensed-bold-italic.woff') format('woff');
+    font-family: 'Roboto Condensed Bold Italic';
+    src: url('fonts/roboto-condensed-bold-italic.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Condensed Black';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-condensed-black.woff') format('woff');
+    font-family: 'Roboto Condensed Black';
+    src: url('fonts/roboto-condensed-black.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Condensed Black Italic';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-condensed-black-italic.woff') format('woff');
+    font-family: 'Roboto Condensed Black Italic';
+    src: url('fonts/roboto-condensed-black-italic.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Light';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-light.woff') format('woff');
+    font-family: 'Roboto Light';
+    src: url('fonts/roboto-light.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Light Italic';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-light-italic.woff') format('woff');
+    font-family: 'Roboto Light Italic';
+    src: url('fonts/roboto-light-italic.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Medium';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-medium.woff') format('woff');
+    font-family: 'Roboto Medium';
+    src: url('fonts/roboto-medium.woff') format('woff');
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
-    font-family: 'Graphik Medium Italic';
-    src: url('http://www.ledevoir.com/fonts/graphik/graphik-medium-italic.woff') format('woff');
+    font-family: 'Roboto Medium Italic';
+    src: url('fonts/roboto-medium-italic.woff') format('woff');
     font-weight:normal;
     font-style:normal;
+}*/
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url('fonts/roboto-black-webfont.woff2') format('woff2'),
+         url('fonts/roboto-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 
+
+
+@font-face {
+    font-family: 'robotoblack_italic';
+    src: url('fonts/roboto-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotobold_italic';
+    src: url('fonts/roboto-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoitalic';
+    src: url('fonts/roboto-italic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotolight_italic';
+    src: url('fonts/roboto-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium';
+    src: url('fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotomedium_italic';
+    src: url('fonts/roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('fonts/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'robotothin_italic';
+    src: url('fonts/roboto-thinitalic-webfont.woff2') format('woff2'),
+         url('fonts/roboto-thinitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body { cyber
     padding: 0 0 30px;
@@ -273,13 +412,13 @@ body { cyber
 label {font:18px/27px Georgia, serif;}
 
 .map-info {
-    font-family: 'Graphik Regular', Arial, sans-serif;
+    font-family: 'robotoregular', Arial, sans-serif;
     display: inline-block;
     margin: 5px 10px 0 0;
 }
 
 #map_size {
-    font-family: 'Graphik Regular', Arial, sans-serif;
+    font-family: 'robotoregular', Arial, sans-serif;
     float: right;
     padding: 0 10px 0 0;
 }
@@ -294,7 +433,7 @@ label {font:18px/27px Georgia, serif;}
 }
 
 #popupContainer {
-    font-family: 'Graphik Regular', Arial, sans-serif;
+    font-family: 'robotoregular', Arial, sans-serif;
     font-size: 20px;
 }
 
@@ -306,7 +445,7 @@ label {font:18px/27px Georgia, serif;}
 }
 .leaflet-popup-content-wrapper{background-color:#000;}
 .leaflet-popup-content{
-    font:bold 34px/40px 'Graphik Bold', Arial, sans-serif;
+    font:bold 34px/40px 'robotobold', Arial, sans-serif;
     color: white;
     -webkit-font-smoothing: antialiased;
 }
@@ -398,7 +537,7 @@ label {font:18px/27px Georgia, serif;}
     padding: 8px 1px;
     margin: 0px 10px 0 0;
     box-shadow: none;
-    font-family: "Graphik Regular", Arial, sans-serif;
+    font-family: "robotoregular", Arial, sans-serif;
 }
 
 #geocodifier {
@@ -430,7 +569,7 @@ label {font:18px/27px Georgia, serif;}
 
 .leaflet-control-attribution {
     height: auto;
-    font-family: 'Graphik Regular', Arial, sans-serif;
+    font-family: 'robotoregular', Arial, sans-serif;
 }
 
 @keyframes blink-animation {
@@ -528,7 +667,7 @@ p.description {
 
 #checkboxes label {
     display: block;
-    font-family: 'Graphik Regular', Arial, sans-serif;
+    font-family: 'robotoregular', Arial, sans-serif;
     font-size: 14px;
     line-height: 18px;
 }
@@ -580,13 +719,13 @@ p.description {
 .small_label span, .small_label textarea {
     font-size: 26px;
     line-height: 30px;
-    font-family: 'Graphik Regular', Arial, sans-serif;
+    font-family: 'robotoregular', Arial, sans-serif;
 }
 
 .medium_label span, .medium_label textarea {
     font-size: 34px;
     line-height: 38px;
-    font-family: 'Graphik Bold', Arial, sans-serif;
+    font-family: 'robotobold', Arial, sans-serif;
 }
 
 .text-label textarea:focus {

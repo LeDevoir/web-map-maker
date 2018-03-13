@@ -17,7 +17,7 @@ import: config.yaml
 
 global:
     #ux/ui
-    ux_language: en             # l10n language code, trusting OSM in v0.10 tiles, fixed in v1.0 tiles
+    ux_language: fr             # l10n language code, trusting OSM in v0.10 tiles, fixed in v1.0 tiles
     ux_language_fallback: false    # l10n language code, trusting OSM in v0.10 tiles, fixed in v1.0 tiles
     ux_language_text_source: |
         function() {
@@ -285,6 +285,7 @@ global:
     road_color:                         '#a6a6a6' # ∆
     minor_road:                         '#cccecf' # ∆
     road_text:                          '#000' # ∆
+    highway_text:                       '#666666'
     road_text_minor:                    '#666' # ∆
     rail_line:                          '#cccecf' # ∆
     runway:                             '#cccecf' # ∆
@@ -318,32 +319,32 @@ global:
     labels_visible_address:             false # ∆ saved for possible future inclusion
     labels_visible_airport_gate:        false # not used but saving for later
     #label colors
-    text_fill:                          '#000'    # ∆
-    text_fill_gray:                     '#474747' # ∆
+    text_fill:                          '#333333'    # ∆
+    text_fill_gray:                     '#5d5d5d' # ∆
     text_water:                         '#5b7c9a' # ∆
     text_stroke:                        '#fff'    # ∆
     #label fonts
-    text_font_family:                   'Benton'  # ∆
+    text_font_family:                   'Graphik'  # ∆
 
 
 fonts:
-    Benton:
+    Graphik:
        - weight: 300 # Light
-         url: https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.5.0/benton-gothic-light.woff
+         url: http://www.ledevoir.com/fonts/graphik/graphik-light.woff
        - weight: normal # Regular
-         url: https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.5.0/benton-gothic-regular.woff
+         url: http://www.ledevoir.com/fonts/graphik/graphik-regular.woff
        - weight: normal # Regular
          style: italic
-         url: https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.5.0/benton-gothic-condensed-regular-italic.woff
+         url: http://www.ledevoir.com/fonts/graphik/graphik-regular-italic.woff
        - weight: 600 # Semi Bold
-         url: https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.5.0/benton-gothic-medium.woff
+         url: http://www.ledevoir.com/fonts/graphik/graphik-medium.woff
        - weight: 600 # Semi Bold
          style: italic
-         url: https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.5.0/benton-gothic-medium-italic.woff
+         url: http://www.ledevoir.com/fonts/graphik/graphik-medium-italic.woff
        - weight: bold
-         url: https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.5.0/benton-gothic-bold.woff
+         url: http://www.ledevoir.com/fonts/graphik/graphik-bold.woff
        - weight: condnensed
-         url: https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.5.0/benton-gothic-condensed-regular.woff
+         url: http://www.ledevoir.com/fonts/graphik/graphik-condensed-regular.woff
 
 
 cameras:
@@ -1711,7 +1712,7 @@ layers:
                     cull_from_tile: true
                     visible: false
                     text:
-                        offset: [0px, -0.5px]
+                        offset: [0px, -2px]
                         repeat_distance: 200px
                         anchor: center
                         text_source: |
@@ -1724,7 +1725,7 @@ layers:
                             }
                         font:
                             family: global.text_font_family
-                            fill: global.road_text_minor
+                            fill: global.highway_text
                             size: 22px
 
             default_priority_highway:
@@ -1735,7 +1736,7 @@ layers:
                 draw:
                     icons:
                         priority: 47
-                        #color: yellow
+                        color: '#F7F7F7'
                         visible: global.labels_visible_highway_shields
 
             default_priority_trunk:

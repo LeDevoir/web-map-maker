@@ -322,9 +322,9 @@ $("#map_holder").resize(function(){
     if (selectedSize.substr(0,3) != "col") {
         if (mapWidth + 'x' + mapHeight == '1920x1080') {
             document.getElementById('preset_sizes').value = 'video';
-        } else if (mapWidth + 'x' + mapHeight == '1300x730') {
+        } else if (mapWidth + 'x' + mapHeight == '1200x675') {
             document.getElementById('preset_sizes').value = 'web_large';
-        } else if (mapWidth + 'x' + mapHeight == '400x450') {
+        } else if (mapWidth + 'x' + mapHeight == '475x267') {
             document.getElementById('preset_sizes').value = 'web_small';
         } else {
             document.getElementById('preset_sizes').value = 'custom';
@@ -522,23 +522,26 @@ if (option.value == 'video') {
     $("#map_holder").width(1930); // these have to be 10 over to compensate for resizable
     $("#map_holder").height(1080);
 } else if (option.value == 'web_large') {
-    $("#map_holder").width(1310);
-    $("#map_holder").height(730);
+    $("#map_holder").width(1200);
+    $("#map_holder").height(675);
 } else if (option.value == 'web_small') {
-    $("#map_holder").width(410);
-    $("#map_holder").height(450);
+    $("#map_holder").width(465);
+    $("#map_holder").height(267);
 } else if (option.value == 'col1') {
-    $("#map_holder").width(340);
-    $("#map_holder").height(700);
+    $("#map_holder").width(176);
+    $("#map_holder").height(176);
+} else if (option.value == 'col1_2') {
+    $("#map_holder").width(272);
+    $("#map_holder").height(153);    
 } else if (option.value == 'col2') {
-    $("#map_holder").width(706);
-    $("#map_holder").height(700);
+    $("#map_holder").width(368);
+    $("#map_holder").height(206);
 } else if (option.value == 'col3') {
-    $("#map_holder").width(1072);
-    $("#map_holder").height(700);
+    $("#map_holder").width(560);
+    $("#map_holder").height(314);
 } else if (option.value == 'col4') {
-    $("#map_holder").width(1438);
-    $("#map_holder").height(700);
+    $("#map_holder").width(752);
+    $("#map_holder").height(423);
 } else if (option.value == 'twitter') {
     $("#map_holder").width(810);
     $("#map_holder").height(400);

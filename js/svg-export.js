@@ -435,7 +435,7 @@ function bakeJson(mapObject) {
                         // skip if a water tunnel or water intermittent
                         if (feature.properties.kind == 'stream' || feature.properties.kind == 'river') {
                             if (feature.properties.intermittent == true || feature.properties.is_tunnel == true) {
-                                break;
+                                continue;
                             }
                         }
 
